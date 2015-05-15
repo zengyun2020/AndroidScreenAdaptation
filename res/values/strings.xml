@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">超级适配方案</string>
+    <string name="txt_notice_desc_1">1.UI设计效果图时,请按照320x480或者640*960为标准进行设计,这样的尺寸在我们进行适配的时候会更加容易</string>
+    <string name="txt_notice_desc_2">2.UI设计效果图时,请使用px作为基本单位</string>
+    <string name="txt_notice_title">注意事项：</string>
+    <string name="txt_eg">例(以640*960为例)：</string>
+    <string name="txt_eg_1">1.现在UI效果图上有一个图片,他的大小是100*100（单位px,下同）,那么我们就要给这个ImageView设置的layout_width和layout_height的值为\"@dimen/x50\"</string>
+    <string name="txt_eg_2">2.现在UI效果图上有一个按钮,他的宽度是占满屏幕,高度是120px,那么我们就要给这个Button设置layout_height的值为\"@dimen/y60\"</string>
+    <string name="txt_eg_3">3.现在UI效果图上有一个Layout,他的宽度是占满屏幕,高度是220px,那么我们就要给这个Layout设置layout_height的值为\"@dimen/y110\"</string>
+    <string name="txt_layout_desc">Layout内的TextView,宽度是父级的1/2</string>
+
+</resources>
